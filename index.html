@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="yungshenglu" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Library -->
+    <script src="lib/jquery-3.1.1/jquery-3.1.1.min.js"></script>
+    <script src="lib/bootstrap-3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:400,70">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom -->
+    <script src="js/filter.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <section class="form">
+        <div class="section-header">
+            <h1>Website Back-end Practice</h1>
+            <h3>GET, POST, and AJAX method</h3>
+            <h3 class="ajax-result">Enter country name</h3>
+        </div>
+        <div class="section-content">
+            <div class="container">
+                <div class="col-md-6 form-line">
+                    <!-- GET method -->
+                    <form action="js/get.js" method="GET">
+                        <div class="form-group">
+                            <label for="get">GET method</label>
+                            <input class="form-control" type="text" name="id" placeholder="Enter country name">
+                            <button class="btn btn-default btn-submit" type="submit">
+                                <i class="fa fa-paper-plane"></i> Submit
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- POST method -->
+                    <form action="js/post.js" method="POST">
+                        <div class="form-group">
+                            <label for="post">POST method</label>
+                            <input class="form-control" type="text" name="id" placeholder="Enter country name">
+                            <button class="btn btn-default btn-submit" type="submit">
+                                <i class="fa fa-paper-plane"></i> Submit
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- AJAX method -->
+                    <form class="ajax">
+                        <div class="form-group">
+                            <label for="ajax">AJAX method</label>
+                            <input class="form-control" type="text" placeholder="Enter country name">
+                            <button class="btn btn-default btn-submit" type="button">
+                                <i class="fa fa-paper-plane"></i> Submit
+                            </button>
+                            <script src="js/search.js"></script>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel panel-primary filterable">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Users list</h3>
+                            <div class="pull-right">
+                                <button class="btn btn-default btn-xs btn-filter">
+                                    <span class="glyphicon glyphicon-filter"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr class="filters">
+                                    <th>
+                                        <input class="form-control" type="text" placeholder="Country name" disabled>
+                                    </th>
+                                    <th>
+                                        <input class="form-control" type="text" placeholder="Alpha-3 code" disabled>
+                                    </th>
+                                    <th>
+                                        <input class="form-control" type="text" placeholder="Numeric code" disabled>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>004</td>
+                                    <td>Afghanistan</td>
+                                    <td>AFG</td>
+                                </tr>
+                                <tr>
+                                    <td>008</td>
+                                    <td>Albania</td>
+                                    <td>ALB</td>
+                                </tr>
+                                <tr>
+                                    <td>012</td>
+                                    <td>Algeria</td>
+                                    <td>DZA</td>
+                                </tr>
+                                <tr>
+                                    <td>020</td>
+                                    <td>Andorra</td>
+                                    <td>AND</td>
+                                </tr>
+                                <tr>
+                                    <td>024</td>
+                                    <td>Angola</td>
+                                    <td>AGO</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

@@ -1,0 +1,110 @@
+section.form {
+    background: -webkti-linear-gradient(to left, #3A6186, #89253E);
+    background: linear-gradient(to left, #3A6186, #89253E);
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: 'Teko', sans-serif;
+    height: 100vh;
+    padding-top: 60px;
+    width: 100vw;
+}
+
+section.form .section-header {
+    text-align: center;
+}
+
+section.from .section-header h1 {
+    font-size: 1.7em;
+}
+
+section.form .section-header h3 {
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+section.form .section-content {
+    padding-top: 40px;
+}
+
+.section-content .col-md-6 {
+    width: 50%;
+}
+
+.section-content .form-line {
+    border-right: 1px solid #B29999;
+}
+
+.section-content .form-group {
+    margin-bottom: 50px;
+}
+
+.section-content .form-group label {
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+.section-content .form-control {
+    color: #000000;
+    font-size: 1.3em;
+}
+
+.section-content .form-group .btn-submit {
+    background-color: transparent;
+    color: #FFFFFF;
+    float: right;
+    font-size: 1.1em;
+    margin-top: 10px;
+    width: 125px;
+}
+
+.section-content .form-group .btn-submit:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+
+.section-content .filterable {
+    margin-top: 15px;
+}
+
+.filterable .pull-right {
+    margin-top: -20px;
+}
+
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    cursor: auto;
+    height: auto;
+    padding: 0;
+}
+
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333333;
+}
+
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333333;
+}
+
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333333;
+}
+
+.filterable .table tbody tr {
+    color: #000000;
+    font-size: 1.3em;
+}
+
+.filterable .table tbody tr:hover {
+    background-color: #CCCCCC;
+    transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+}
